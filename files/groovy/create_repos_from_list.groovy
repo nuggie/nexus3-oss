@@ -33,7 +33,7 @@ private boolean configurationChanged(Configuration oldConfig, Configuration newC
             oldConfig.attributes.httpclient.authentication = null
         }
     }
-    return oldConfig.properties != newConfig.properties
+    return oldConfig.attributes != newConfig.attributes
 }
 
 
